@@ -1,0 +1,70 @@
+C:\Users\inali\source\repos\Blog.WebApp.Solution\Blog.Core\bin\Debug\Blog.Core.dll
+C:\Users\inali\source\repos\Blog.WebApp.Solution\Blog.Core\bin\Debug\Blog.Core.pdb
+C:\Users\inali\source\repos\Blog.WebApp.Solution\Blog.Core\obj\Debug\Blog.Core.csprojAssemblyReference.cache
+C:\Users\inali\source\repos\Blog.WebApp.Solution\Blog.Core\obj\Debug\Blog.Core.csproj.CoreCompileInputs.cache
+C:\Users\inali\source\repos\Blog.WebApp.Solution\Blog.Core\obj\Debug\Blog.Core.dll
+C:\Users\inali\source\repos\Blog.WebApp.Solution\Blog.Core\obj\Debug\Blog.Core.pdb
+C:\Users\inali\source\repos\Blog.WebApp.Solution\Blog.Core\bin\Debug\Blog.Core.dll.config
+C:\Users\inali\source\repos\Blog.WebApp.Solution\Blog.Core\bin\Debug\EntityFramework.dll
+C:\Users\inali\source\repos\Blog.WebApp.Solution\Blog.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\inali\source\repos\Blog.WebApp.Solution\Blog.Core\bin\Debug\EntityFramework.xml
+C:\Users\inali\source\repos\Blog.WebApp.Solution\Blog.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\inali\source\repos\Blog.WebApp.Solution\Blog.Core\obj\Debug\Blog.Core.csproj.CopyComplete
+C:\Users\inali\source\repos\Blog.WebApp.Solution\Blog.Core\bin\Debug\FakeData.dll
+C:\Users\inali\source\repos\Blog.WebApp.Solution\Blog.Core\bin\Debug\FakeData.pdb
+C:\Users\inali\OneDrive\Masaüstü\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\Blog.Core.dll.config
+C:\Users\inali\OneDrive\Masaüstü\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\Blog.Core.dll
+C:\Users\inali\OneDrive\Masaüstü\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\Blog.Core.pdb
+C:\Users\inali\OneDrive\Masaüstü\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\EntityFramework.dll
+C:\Users\inali\OneDrive\Masaüstü\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\inali\OneDrive\Masaüstü\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\FakeData.dll
+C:\Users\inali\OneDrive\Masaüstü\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\EntityFramework.xml
+C:\Users\inali\OneDrive\Masaüstü\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\inali\OneDrive\Masaüstü\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\FakeData.pdb
+C:\Users\inali\OneDrive\Masaüstü\Blog.WebApp.Solution-master\Blog.Core\obj\Debug\Blog.Core.csprojAssemblyReference.cache
+C:\Users\inali\OneDrive\Masaüstü\Blog.WebApp.Solution-master\Blog.Core\obj\Debug\Blog.Core.csproj.CoreCompileInputs.cache
+C:\Users\inali\OneDrive\Masaüstü\Blog.WebApp.Solution-master\Blog.Core\obj\Debug\Blog.Core.csproj.CopyComplete
+C:\Users\inali\OneDrive\Masaüstü\Blog.WebApp.Solution-master\Blog.Core\obj\Debug\Blog.Core.dll
+C:\Users\inali\OneDrive\Masaüstü\Blog.WebApp.Solution-master\Blog.Core\obj\Debug\Blog.Core.pdb
+C:\Users\inali\OneDrive\Masaüstü\Deskop\Download Project\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\Blog.Core.dll.config
+C:\Users\inali\OneDrive\Masaüstü\Deskop\Download Project\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\Blog.Core.dll
+C:\Users\inali\OneDrive\Masaüstü\Deskop\Download Project\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\Blog.Core.pdb
+C:\Users\inali\OneDrive\Masaüstü\Deskop\Download Project\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\EntityFramework.dll
+C:\Users\inali\OneDrive\Masaüstü\Deskop\Download Project\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\inali\OneDrive\Masaüstü\Deskop\Download Project\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\FakeData.dll
+C:\Users\inali\OneDrive\Masaüstü\Deskop\Download Project\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\EntityFramework.xml
+C:\Users\inali\OneDrive\Masaüstü\Deskop\Download Project\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\inali\OneDrive\Masaüstü\Deskop\Download Project\Blog.WebApp.Solution-master\Blog.Core\bin\Debug\FakeData.pdb
+C:\Users\inali\OneDrive\Masaüstü\Deskop\Download Project\Blog.WebApp.Solution-master\Blog.Core\obj\Debug\Blog.Core.csprojAssemblyReference.cache
+C:\Users\inali\OneDrive\Masaüstü\Deskop\Download Project\Blog.WebApp.Solution-master\Blog.Core\obj\Debug\Blog.Core.csproj.CoreCompileInputs.cache
+C:\Users\inali\OneDrive\Masaüstü\Deskop\Download Project\Blog.WebApp.Solution-master\Blog.Core\obj\Debug\Blog.Core.csproj.CopyComplete
+C:\Users\inali\OneDrive\Masaüstü\Deskop\Download Project\Blog.WebApp.Solution-master\Blog.Core\obj\Debug\Blog.Core.dll
+C:\Users\inali\OneDrive\Masaüstü\Deskop\Download Project\Blog.WebApp.Solution-master\Blog.Core\obj\Debug\Blog.Core.pdb
+C:\Users\inali\OneDrive\Masaüstü\Dekarasyon\Blog.Core\bin\Debug\Blog.Core.dll.config
+C:\Users\inali\OneDrive\Masaüstü\Dekarasyon\Blog.Core\bin\Debug\Blog.Core.dll
+C:\Users\inali\OneDrive\Masaüstü\Dekarasyon\Blog.Core\bin\Debug\Blog.Core.pdb
+C:\Users\inali\OneDrive\Masaüstü\Dekarasyon\Blog.Core\bin\Debug\EntityFramework.dll
+C:\Users\inali\OneDrive\Masaüstü\Dekarasyon\Blog.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\inali\OneDrive\Masaüstü\Dekarasyon\Blog.Core\bin\Debug\FakeData.dll
+C:\Users\inali\OneDrive\Masaüstü\Dekarasyon\Blog.Core\bin\Debug\EntityFramework.xml
+C:\Users\inali\OneDrive\Masaüstü\Dekarasyon\Blog.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\inali\OneDrive\Masaüstü\Dekarasyon\Blog.Core\bin\Debug\FakeData.pdb
+C:\Users\inali\OneDrive\Masaüstü\Dekarasyon\Blog.Core\obj\Debug\Blog.Core.csprojAssemblyReference.cache
+C:\Users\inali\OneDrive\Masaüstü\Dekarasyon\Blog.Core\obj\Debug\Blog.Core.csproj.CoreCompileInputs.cache
+C:\Users\inali\OneDrive\Masaüstü\Dekarasyon\Blog.Core\obj\Debug\Blog.Core.csproj.CopyComplete
+C:\Users\inali\OneDrive\Masaüstü\Dekarasyon\Blog.Core\obj\Debug\Blog.Core.dll
+C:\Users\inali\OneDrive\Masaüstü\Dekarasyon\Blog.Core\obj\Debug\Blog.Core.pdb
+C:\Users\inali\OneDrive\Masaüstü\McoraRentACar\Blog.Core\bin\Debug\Blog.Core.dll.config
+C:\Users\inali\OneDrive\Masaüstü\McoraRentACar\Blog.Core\bin\Debug\Blog.Core.dll
+C:\Users\inali\OneDrive\Masaüstü\McoraRentACar\Blog.Core\bin\Debug\Blog.Core.pdb
+C:\Users\inali\OneDrive\Masaüstü\McoraRentACar\Blog.Core\bin\Debug\EntityFramework.dll
+C:\Users\inali\OneDrive\Masaüstü\McoraRentACar\Blog.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\inali\OneDrive\Masaüstü\McoraRentACar\Blog.Core\bin\Debug\FakeData.dll
+C:\Users\inali\OneDrive\Masaüstü\McoraRentACar\Blog.Core\bin\Debug\EntityFramework.xml
+C:\Users\inali\OneDrive\Masaüstü\McoraRentACar\Blog.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\inali\OneDrive\Masaüstü\McoraRentACar\Blog.Core\bin\Debug\FakeData.pdb
+C:\Users\inali\OneDrive\Masaüstü\McoraRentACar\Blog.Core\obj\Debug\Blog.Core.csprojAssemblyReference.cache
+C:\Users\inali\OneDrive\Masaüstü\McoraRentACar\Blog.Core\obj\Debug\Blog.Core.csproj.CoreCompileInputs.cache
+C:\Users\inali\OneDrive\Masaüstü\McoraRentACar\Blog.Core\obj\Debug\Blog.Core.csproj.CopyComplete
+C:\Users\inali\OneDrive\Masaüstü\McoraRentACar\Blog.Core\obj\Debug\Blog.Core.dll
+C:\Users\inali\OneDrive\Masaüstü\McoraRentACar\Blog.Core\obj\Debug\Blog.Core.pdb

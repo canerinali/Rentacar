@@ -1,0 +1,50 @@
+﻿@using  Blog.Entities.Messages
+@using Dekorasyon.WebApp.ViewModels
+@model ErrorViewModel
+@{
+    ViewBag.Title = Model.Title;
+}
+
+<link href="~/Content/Page.css" rel="stylesheet" />
+<div class="col-12">
+    <section class="login-info">
+        <div class="container col-5">
+            <div class="row main">
+                <div class="form-header">
+                    <h1 class="text-center">@Model.Header</h1>
+                </div>
+                <div class="main-content col-12">
+                    <div class="text-danger text-center">
+                        <h2><span class="fa fa-times"></span>&nbsp;&nbsp;&nbsp;@Model.Title</h2>
+                        <hr />
+                        <p class="text-justify text-center">
+                            @foreach (ErrorMessageObj msg in Model.Items)
+                            {
+                                @msg.Message<br>
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+@{
+    string js = string.Empty;
+
+    if (Model.IsRedirecting)
+    {
+        js = "setTimeout(function () { window.location = '" + Model.RedirectingUrl + "'; }, " +
+            Model.RedirectingTimeout + ");";
+    }
+}
+<script>
+
+    $(function () {
+        $("footer").parent().hide();
+        @Html.Raw(js);
+    });
+
+</script>
+
+

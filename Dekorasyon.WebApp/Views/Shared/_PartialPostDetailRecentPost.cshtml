@@ -1,0 +1,27 @@
+﻿@using Dekorasyon.WebApp.Models
+@using Blog.Entities
+@{
+    List<Post> list = CacheHelper.GetPostFromCache();
+}
+
+<div class="widget-sidebar">
+    <h5 class="sidebar-title">Araçlar</h5>
+
+    <div class="sidebar-content">
+        <ul class="list-sidebar">
+
+
+            @foreach (Post post in list)
+            {
+                if (post.Id >= 0)
+                {
+                    <li>
+                        <a href="/Arac-@post.Id">@post.Title</a>
+                    </li>
+                }
+
+            }
+        </ul>
+    </div>
+
+</div>

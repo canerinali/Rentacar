@@ -1,0 +1,43 @@
+﻿@model Blog.Entities.Contact
+@{
+    ViewBag.Title = "Mesaj Detay";
+}
+<div class="row">
+    <div class="container">
+        <div class="col-12 text-left">
+            <p>
+                <a href="/YonetimContact/Index" class="btn btn-default">
+                    <span class="fa fa-arrow-circle-left"> Geri Dön</span>
+                </a>
+            </p>
+        </div>
+        <div class="col-12">
+            <h4 class="text-center">@ViewBag.Title</h4>
+            <hr />
+            <dl class="col-10 text-lg">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Ad)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Ad)  @Html.DisplayFor(model => model.Soyad)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Text)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Text)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.ModifiedOn.Date)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.ModifiedOn.Date)
+                </dd>
+            </dl>
+            <br />
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
+</div>

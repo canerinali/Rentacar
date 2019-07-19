@@ -1,0 +1,242 @@
+﻿
+@using Blog.Entities
+@model List<Post>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAnaSite.cshtml";
+}
+<style>
+    a:hover, a:active {
+        font-size: 150%;
+    }
+</style>
+<!--/ Intro Skew Star /-->
+<div id="home" class="intro route bg-image" style="background-image: url('/images/slider1.jpg')">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+        <div style="margin-top: 120px;">
+            <div class="container">
+                <img src="~/images/WhatsApp Image 2019-07-12 at 07.56.47.png" alt="" class="img-fluid">
+                <!--<p class="display-6 color-d">Hello, world!</p>-->
+                <p class="intro-subtitle"><span class="text-slider-items">Rent A Car,Güvenli Adres,Kaliteli Hizmet,7/24 Hizmet</span><strong class="text-slider"></strong></p>
+                <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container-fluid">
+            <div class="col-md-12" style="margin-top: 350px;">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 buyu-img">
+                        <a href="/Arac-72"><img src="~/images/purepng.com-black-citroen-c4-aircross-carcarvehicletransportcitroen-961524640599itqac.png" alt="" class="img-fluid"></a>
+                    </div>
+                </div>
+                <div class="row justify-content-around" style="margin-top: -200px;">
+                    <div class="col-md-3 buyu-img">
+                        <a href="/Arac-70"><img src="~/images/mobil-3.png" alt="" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-3 buyu-img">
+                        <a href="/Arac-69"><img src="~/images/Renault Clio.png" alt="" class="img-fluid"></a>
+                    </div>
+                </div>
+                <div class="row justify-content-between" style="margin-top: -130px;">
+                    <div class="col-md-3 buyu-img">
+                        <a href="/Arac-68"><img src="~/images/0dd142064cc0830c4ff8681df13cc35b.png" alt="" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-3 buyu-img">
+                        <a href="/Arac-73"><img src="~/images/Peugeot-301.png" alt="" class="img-fluid"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--/ Intro Skew End /-->
+<section id="blog" class="blog-mf sect-pt4 route">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title-box text-center">
+                    <h3 class="title-a">
+                        Mcora Araç Kiralama
+                    </h3>
+                    <p class="subtitle-a">
+                        Son model araçlarımızla sizlere kaliteli ve güvenli hizmetler sunmaktayız.Bizi tercih ettiğiniz için teşekkürler..
+                    </p>
+                    <div class="line-mf"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (Post post in Model)
+            {
+                <div class="col-md-4" data-post-id="@post.Id">
+                    <div class="card card-blog">
+                        <div class="card-img">
+                            <a href="/Arac-@post.Id"><img src="~/images/@post.PostImageFilename" alt="" class="img-fluid"></a>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-category-box">
+                                <div class="card-category" data-post-id="@post.Id">
+                                    <h6 class="category">@post.Title</h6>
+                                </div>
+                            </div>
+                            <h3 class="card-title"><a href="/AnaHome/PostDetail/@post.Id"></a></h3>
+                            @if (string.IsNullOrEmpty(post.Text) == false && post.Text.Length > 250)
+                            {
+                                <p class="card-description">
+                                    @(post.Text.Substring(0, 250) + "...")
+                                </p>
+                            }
+                            else
+                            {
+                                <p class="card-description">
+                                    @post.Text
+                                </p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+<div class="testimonials paralax-mf" style="background-image: url(~/img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container-fluid">
+    
+            <div class="col-md-12 text-center">
+                <div class="col-md-12 intro-title">
+                    <h1>HEMEN ARAYIN UYGUN FİYATA KİRALAYIN &nbsp&nbsp&nbsp&nbsp<span class="fa fa-phone fa-lg"></span><a href="tel:05456530153">05456530153</a></h1>
+                </div>
+            </div>
+        </div>
+
+</div>
+<section id="work" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title-box text-center">
+                    <h3 class="title-a">
+                        Hizmetlerimiz
+                    </h3>
+                    <div class="line-mf"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work-box">
+                    <div class="work-img">
+                        <img src="~/images/konforlu-dizel-araclar.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="work-content">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h2 class="w-title">Ekonomik Araçlar</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work-box">
+                    <div class="work-img">
+                        <img src="~/images/2-30.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="work-content">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h2 class="w-title">Düğün Arabası Kiralama Hizmeti</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work-box">
+                    <div class="work-img">
+                        <img src="~/images/vip-arac-ucretlerine-yuzde-25-indirim-yapti.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="work-content">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h2 class="w-title">VİP Araç Hizmeti</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work-box">
+                    <div class="work-img">
+                        <img src="~/images/sofor-arac.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="work-content">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h2 class="w-title">Özel Şöförlü Araç Hizmeti</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work-box">
+                    <div class="work-img">
+                        <img src="~/images/22706-1-bmw-m3-clipart.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="work-content">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h2 class="w-title">Lüx Araç Hizmeti</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="box-shadow-full">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="col-lg-12">
+                                <div class="about-me pt-4 pt-md-0">
+                                    <div class="title-box-2">
+                                        <h5 class="title-left">
+                                            Hakkımızda
+                                        </h5>
+                                    </div>
+                                    <p class="lead">
+                                        Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
+                                        imperdiet et, porttitor
+                                        at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
+                                        porttitor accumsan tincidunt.
+                                    </p>
+                                    <p class="lead">
+                                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
+                                        porttitor volutpat. Vestibulum
+                                        ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                                    </p>
+                                    <p class="lead">
+                                        Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                                        Nulla porttitor accumsan
+                                        tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@Html.Partial("_FooterPartial")

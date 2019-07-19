@@ -1,0 +1,37 @@
+﻿@using Blog.Entities
+@using Dekorasyon.WebApp.Models
+@{
+    List<Contact> list = CacheHelper.GetMessageFromCache();
+}
+<li class="nav-item dropdown no-arrow mx-1">
+    <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-envelope fa-fw"></i>
+        <!-- Counter - Messages -->
+        <span class="badge badge-danger badge-counter">@list.Count</span>
+    </a>
+    <!-- Dropdown - Messages -->
+    <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
+        <h6 class="dropdown-header">
+            Gelen Mesajlar
+        </h6>
+        @foreach (Contact contact in list)
+        {
+            <a class="dropdown-item d-flex align-items-center" href="/Contact/Details/@contact.Id">
+                <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="~/img/585e4bf3cb11b227491c339a.png" alt="">
+                    <div class="status-indicator bg-success"></div>
+                </div>
+                <div class="font-weight-bold">
+                    @if (string.IsNullOrEmpty(contact.Text) == false && contact.Text.Length > 30)
+                    {
+
+                        <div class="text-truncate">@(contact.Text.Substring(0, 30) + "...")</div>
+
+                    }
+                    <div class="small text-gray-500">@contact.Ad @contact.Soyad</div>
+                </div>
+            </a>
+        }
+        <a class="dropdown-item text-center small text-gray-500" href="/Contact/Index">Read More Messages</a>
+    </div>
+</li>

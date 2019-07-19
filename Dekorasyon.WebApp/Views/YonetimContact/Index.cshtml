@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Blog.Entities.Contact>
+@{
+    ViewBag.Title = "Gelen Mesajlar";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-md-offset-1">
+            <h2 class="text-center">@ViewBag.Title</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-md-offset-1">
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Ad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Soyad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Text)
+                    </th>
+                    <th></th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Ad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Soyad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td height="100">
+                            @Html.DisplayFor(modelItem => item.Text)
+                        </td>
+                        <td width="250">
+                            <a href="/YonetimContact/Details/@item.Id" class="btn btn-lg" title="Detaylar">
+                                <span class="fa fa-search"></span>
+                            </a>
+                            <a href="/YonetimContact/Delete/@item.Id" class="btn btn-lg" title="Kaldır">
+                                <span class="fa fa-trash"></span>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+
